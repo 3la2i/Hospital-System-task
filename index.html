@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="form-container">
+        <h2>Patient Information</h2>
+        <form id="patient-form">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="fullName" required />
+
+          <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+<!-- 
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    
+                </select>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="chronic-diseases">Chronic Diseases:</label>
+                <select id="chronic-diseases" name="chronic-diseases" multiple required>
+                    <option value="diabetes">Diabetes</option>
+      l              <option value="heart-disease">Heart Disease</option>
+                    <option value="asthma">Asthma</option>
+                    <option value="cancer">Cancer</option> -->
+                </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <div class="card">
+      <div>
+        <h3>Full Name:</h3>
+        <h2 id="fname">....</h2>
+      </div>
+      <div>
+      <h3>password :</h3>
+      <h2 id="pss">...</h2>
+
+      </div>
+     
+<div>
+      <h3>Date Of Birth:</h3>
+      <h2 id="dob">...</h2>
+</div>
+
+
+    </div>
+
+    
+    <footer>
+      <p>&copy; 2024 Hospital Management System</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
